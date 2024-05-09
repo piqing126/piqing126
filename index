@@ -1,0 +1,7 @@
+            swap(arr, i, index);
+            index++;
+        }       
+    }
+    swap(arr, pivot, index - 1);
+    return index-1;
+}
