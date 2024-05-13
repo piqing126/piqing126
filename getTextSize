@@ -1,0 +1,6 @@
+        t_size = cv2.getTextSize(str(info), cv2.FONT_HERSHEY_PLAIN, 1, 2)[0]
+        x2,y2 = x0 + t_size[0] + 3, y0 + t_size[1] + 4
+        cv2.rectangle(img, (x0,y0), (x2,y2), (0, 0, 255), -1)  # -1填充作为文字框底色
+        cv2.putText(img, info, (x0, y0 +t_size[1]+4), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)
+    return img
+ 
