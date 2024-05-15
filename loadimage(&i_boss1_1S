@@ -1,0 +1,6 @@
+	loadimage(&i_backcontrol, L"backcontrol.jpg",WINDOW_WIDTH,WINDOW_HEIGHT);
+	loadimage(&i_boss1_1, L"boss1_1.jpg");
+	loadimage(&i_boss1_1S, L"boss1_1S.jpg");
+	loadimage(&i_boss1_2, L"boss1_2.jpg");
+	loadimage(&i_boss1_2S, L"boss1_1S.jpg");
+	loadimage(&i_backgo, L"Gameover.jpg", WINDOW_WIDTH, WINDOW_HEIGHT);
