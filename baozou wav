@@ -1,0 +1,3 @@
+	putimage(0, 30, &i_backeve);
+	Sleep(1000);
+	PlaySound(L"baozou.wav", NULL, SND_FILENAME | SND_ASYNC);
