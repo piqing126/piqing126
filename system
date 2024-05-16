@@ -1,0 +1,8 @@
+			if (endGame())
+			{
+				Sleep(500);
+				system("cls");
+				break;
+			}
+		}
+		else if (GetAsyncKeyState(VK_F1)) //
