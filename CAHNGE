@@ -1,0 +1,10 @@
+				if (GetAsyncKeyState(VK_SPACE)) // CAHNGE
+				{
+					break;
+				}
+
+			}
+		}
+		else if (GetAsyncKeyState(VK_ESCAPE))
+		{
+			status = ESC; /
