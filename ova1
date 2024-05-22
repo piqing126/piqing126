@@ -1,0 +1,7 @@
+ class BtnActionAdapter implements ActionListener
+    {
+        public void actionPerformed(ActionEvent e)
+        {
+            String s=in.getText();
+            double d=Double.parseDouble(s);
+            double sq=d*d;
