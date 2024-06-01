@@ -1,0 +1,8 @@
+void History(struct history s[],int num,U* h)
+{
+    system("cls");
+    if(num==1)
+    {
+        gotoxy(1,1);
+        printf("");
+    }
